@@ -36,7 +36,7 @@ public class BlogController {
     }
 
     @GetMapping("/api/articles")
-    @Operation(summary = "블로그 전체 목록 보기", description = "블로그 메인 화면에서 보여주는 전체 목록")
+    @Operation(summary = "블로그 전체    목록 보기", description = "블로그 메인 화면에서 보여주는 전체 목록")
     // 아래는 안되던데 나중에 이유 찾아봐야함
     /*@ApiResponses(value = {
             @ApiResponse(responseCode = "100", description = "요청에 성공했습니다.", content = @Content(mediaType = "application/json"))
