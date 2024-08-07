@@ -1,3 +1,4 @@
+/*
 package com.example.blogjpa.filter;
 
 import jakarta.servlet.*;
@@ -28,4 +29,4 @@ public class UrlPrintFilter implements Filter {
     public void destroy() {
         log.info("1. url print filter destroy");
     }
-}
+}*/

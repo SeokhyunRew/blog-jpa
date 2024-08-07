@@ -1,3 +1,4 @@
+/*
 package com.example.blogjpa.filter;
 
 import jakarta.servlet.Filter;
@@ -23,4 +24,4 @@ public class FilterConfiguration {
         filter.addUrlPatterns("/filter/*");
         return filter;
     }
-}
+}*/

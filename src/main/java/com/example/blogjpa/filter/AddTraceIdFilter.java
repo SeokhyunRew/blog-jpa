@@ -1,3 +1,4 @@
+/*
 package com.example.blogjpa.filter;
 
 import jakarta.servlet.*;
@@ -26,3 +27,4 @@ public class AddTraceIdFilter implements Filter {
         log.info("2. AddTraceIdFilter destroy()");
     }
 }
+*/
