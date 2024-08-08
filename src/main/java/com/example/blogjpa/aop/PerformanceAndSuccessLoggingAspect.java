@@ -5,7 +5,6 @@ package com.example.blogjpa.aop;/*
 import static com.example.blogjpa.aop.LogLevel.ERROR;
 import static com.example.blogjpa.aop.LogLevel.INFO;
 
-import com.example.blogjpa.aop.LogLevel;
 import lombok.RequiredArgsConstructor;
 import lombok.extern.slf4j.Slf4j;
 import org.aspectj.lang.JoinPoint;
@@ -15,10 +14,14 @@ import org.aspectj.lang.annotation.Around;
 import org.aspectj.lang.annotation.Aspect;
 import org.aspectj.lang.annotation.Before;
 import org.aspectj.lang.annotation.Pointcut;
+import org.springframework.stereotype.Component;
+
+/*
+import com.example.blogjpa.aop.LogLevel;
 import org.springframework.security.core.Authentication;
 import org.springframework.security.core.context.SecurityContextHolder;
-import org.springframework.security.core.userdetails.UserDetails;
-import org.springframework.stereotype.Component;
+import org.springframework.security.core.userdetails.UserDetails;*/
+
 
 @Aspect
 @Component
@@ -89,6 +92,7 @@ public class PerformanceAndSuccessLoggingAspect {
         log.info("{} {} , 실행 시간 : {}ms, 에러 메시지: {}", status, joinPoint.getSignature(), executionTime, message);
 //        saveLog(joinPoint, status, message, logLevel, executionTime);
     }
+
 
     /*private void saveLog(ProceedingJoinPoint joinPoint, String isSuccess,
                          String message, LogLevel logLevel, long executionTime) {
