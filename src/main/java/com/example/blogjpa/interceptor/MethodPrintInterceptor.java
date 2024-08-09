@@ -1,3 +1,4 @@
+/*
 package com.example.blogjpa.interceptor;
 
 import jakarta.servlet.http.HttpServletRequest;
@@ -26,4 +27,4 @@ public class MethodPrintInterceptor implements HandlerInterceptor {
     public void afterCompletion(HttpServletRequest request, HttpServletResponse response, Object handler, Exception ex) throws Exception {
         log.info("MethodPrintInterceptor afterCompletion()");
     }
-}
+}*/
