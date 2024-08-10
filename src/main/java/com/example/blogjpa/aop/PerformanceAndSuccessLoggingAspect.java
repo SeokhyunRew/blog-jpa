@@ -1,6 +1,9 @@
-package com.example.blogjpa.aop;/*
+/*
+package com.example.blogjpa.aop;*/
+/*
  * created by seokhyun on 2024-08-07.
- */
+ *//*
+
 
 import static com.example.blogjpa.aop.LogLevel.ERROR;
 import static com.example.blogjpa.aop.LogLevel.INFO;
@@ -16,11 +19,13 @@ import org.aspectj.lang.annotation.Before;
 import org.aspectj.lang.annotation.Pointcut;
 import org.springframework.stereotype.Component;
 
+*/
 /*
 import com.example.blogjpa.aop.LogLevel;
 import org.springframework.security.core.Authentication;
 import org.springframework.security.core.context.SecurityContextHolder;
-import org.springframework.security.core.userdetails.UserDetails;*/
+import org.springframework.security.core.userdetails.UserDetails;*//*
+
 
 
 @Aspect
@@ -94,7 +99,8 @@ public class PerformanceAndSuccessLoggingAspect {
     }
 
 
-    /*private void saveLog(ProceedingJoinPoint joinPoint, String isSuccess,
+    */
+/*private void saveLog(ProceedingJoinPoint joinPoint, String isSuccess,
                          String message, LogLevel logLevel, long executionTime) {
         Long userId = getLoginUserIdOrNull();
 
@@ -111,6 +117,7 @@ public class PerformanceAndSuccessLoggingAspect {
             userId = ((CustomUserDetails) authentication.getPrincipal()).getUserId();
         }
         return userId;
-    }*/
+    }*//*
 
-}
+
+}*/
